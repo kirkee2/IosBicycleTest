@@ -8,22 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5E3FF7B11DFAABAB00D4DCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF7B01DFAABAB00D4DCED /* AppDelegate.swift */; };
-		5E3FF7B31DFAABAB00D4DCED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF7B21DFAABAB00D4DCED /* ViewController.swift */; };
 		5E3FF7B61DFAABAB00D4DCED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FF7B41DFAABAB00D4DCED /* Main.storyboard */; };
 		5E3FF7B91DFAABAB00D4DCED /* BicycleTest03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF7B71DFAABAB00D4DCED /* BicycleTest03.xcdatamodeld */; };
 		5E3FF7BB1DFAABAB00D4DCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FF7BA1DFAABAB00D4DCED /* Assets.xcassets */; };
 		5E3FF7BE1DFAABAB00D4DCED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FF7BC1DFAABAB00D4DCED /* LaunchScreen.storyboard */; };
+		5E3FF7C91DFAAC0A00D4DCED /* AlertViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF7C61DFAAC0A00D4DCED /* AlertViewExtension.swift */; };
+		5E3FF7CA1DFAAC0A00D4DCED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF7C71DFAAC0A00D4DCED /* MainViewController.swift */; };
+		5E3FF7CB1DFAAC0A00D4DCED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FF7C81DFAAC0A00D4DCED /* LoginViewController.swift */; };
+		5E3FF7CE1DFAAC3700D4DCED /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3FF7CD1DFAAC3700D4DCED /* KakaoOpenSDK.framework */; };
+		5E4EC39A1DFAB1F90087FD4A /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4EC3991DFAB1F90087FD4A /* UIAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E3FF7AD1DFAABAB00D4DCED /* BicycleTest03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BicycleTest03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3FF7B01DFAABAB00D4DCED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E3FF7B21DFAABAB00D4DCED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E3FF7B51DFAABAB00D4DCED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E3FF7B81DFAABAB00D4DCED /* BicycleTest03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BicycleTest03.xcdatamodel; sourceTree = "<group>"; };
 		5E3FF7BA1DFAABAB00D4DCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E3FF7BD1DFAABAB00D4DCED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3FF7BF1DFAABAB00D4DCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3FF7C51DFAABD400D4DCED /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E3FF7C61DFAAC0A00D4DCED /* AlertViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewExtension.swift; sourceTree = "<group>"; };
+		5E3FF7C71DFAAC0A00D4DCED /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5E3FF7C81DFAAC0A00D4DCED /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E3FF7CD1DFAAC3700D4DCED /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		5E4EC3991DFAB1F90087FD4A /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3FF7CE1DFAAC3700D4DCED /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +50,8 @@
 		5E3FF7A41DFAABAB00D4DCED = {
 			isa = PBXGroup;
 			children = (
+				5E3FF7CC1DFAAC2A00D4DCED /* Frameworks */,
+				5E3FF7C51DFAABD400D4DCED /* KakaoOpenSDK-Bridging-Header.h */,
 				5E3FF7AF1DFAABAB00D4DCED /* BicycleTest03 */,
 				5E3FF7AE1DFAABAB00D4DCED /* Products */,
 			);
@@ -56,8 +68,11 @@
 		5E3FF7AF1DFAABAB00D4DCED /* BicycleTest03 */ = {
 			isa = PBXGroup;
 			children = (
+				5E4EC3991DFAB1F90087FD4A /* UIAlertController.swift */,
+				5E3FF7C61DFAAC0A00D4DCED /* AlertViewExtension.swift */,
+				5E3FF7C71DFAAC0A00D4DCED /* MainViewController.swift */,
+				5E3FF7C81DFAAC0A00D4DCED /* LoginViewController.swift */,
 				5E3FF7B01DFAABAB00D4DCED /* AppDelegate.swift */,
-				5E3FF7B21DFAABAB00D4DCED /* ViewController.swift */,
 				5E3FF7B41DFAABAB00D4DCED /* Main.storyboard */,
 				5E3FF7BA1DFAABAB00D4DCED /* Assets.xcassets */,
 				5E3FF7BC1DFAABAB00D4DCED /* LaunchScreen.storyboard */,
@@ -65,6 +80,14 @@
 				5E3FF7B71DFAABAB00D4DCED /* BicycleTest03.xcdatamodeld */,
 			);
 			path = BicycleTest03;
+			sourceTree = "<group>";
+		};
+		5E3FF7CC1DFAAC2A00D4DCED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E3FF7CD1DFAAC3700D4DCED /* KakaoOpenSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3FF7B31DFAABAB00D4DCED /* ViewController.swift in Sources */,
+				5E3FF7CB1DFAAC0A00D4DCED /* LoginViewController.swift in Sources */,
 				5E3FF7B11DFAABAB00D4DCED /* AppDelegate.swift in Sources */,
 				5E3FF7B91DFAABAB00D4DCED /* BicycleTest03.xcdatamodeld in Sources */,
+				5E3FF7C91DFAAC0A00D4DCED /* AlertViewExtension.swift in Sources */,
+				5E4EC39A1DFAB1F90087FD4A /* UIAlertController.swift in Sources */,
+				5E3FF7CA1DFAAC0A00D4DCED /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +290,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SH6BJZ5NBA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BicycleTest03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.lkj.BicycleTest01.BicycleTest03;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lkj.BicycleTest03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KakaoOpenSDK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -277,10 +309,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SH6BJZ5NBA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BicycleTest03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.lkj.BicycleTest01.BicycleTest03;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lkj.BicycleTest03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KakaoOpenSDK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +342,7 @@
 				5E3FF7C41DFAABAC00D4DCED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
